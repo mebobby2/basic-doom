@@ -1,4 +1,4 @@
 # basic-doom
 
-Upto: page 40 
-Let’s walk through an example of writing and running some code
+Upto: page 46
+Chapter 2
