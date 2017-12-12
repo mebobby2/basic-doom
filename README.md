@@ -1,4 +1,4 @@
 # basic-doom
 
-Upto: page 34
-How to use Unity
+Upto: page 40 
+Let’s walk through an example of writing and running some code
