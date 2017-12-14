@@ -16,6 +16,7 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 55
-Making things move: a script that applies transforms
+page 57
+Local vs. global coordinate space
+
 
