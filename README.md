@@ -16,5 +16,6 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 54
-The player’s collider and viewpoint
+page 55
+Making things move: a script that applies transforms
+
