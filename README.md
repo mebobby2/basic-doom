@@ -1,8 +1,10 @@
-# basic-doom
+# Basic Doom
+
+A very very basic version of Doom built using Unity.
 
 ## Prerequisites
 
-Developed using Unity version 2017.2.0f3
+* Unity version 2017.2.0f3
 
 ## Unity Editor Scene Navigation
 * Click and drag GameObject to move it around the scene
@@ -13,5 +15,6 @@ Developed using Unity version 2017.2.0f3
 * https://docs.unity3d.com/560/Documentation/Manual/SceneViewNavigation.html
 
 ## Upto
+
 page 52
-Once the outer walls are in place, create some inner walls to navigate around
+Lights and cameras
