@@ -27,14 +27,27 @@ public class MouseLook : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (axes == RotationAxes.MouseX) {
+//			Debug.Log("Mouse X is "+ Input.GetAxis ("Mouse X"));
+//			Debug.Log("Rotate by "+ Input.GetAxis("Mouse X") * sensitivityHor);
+//
+			// Input.GetAxis("Mouse X") - Moving left is negative and right is positive
 			transform.Rotate (0, Input.GetAxis("Mouse X") * sensitivityHor, 0);
 		} else if (axes == RotationAxes.MouseY) {
+			// Vertical rotation goes around the X axis that's why the variable is called _rotationX
+			// Input.GetAxis("Mouse Y") - Moving up is positive and down is negative
+			// Hence a smaller _rotationX is looking up, and a bigger one is looking down
 			_rotationX -= Input.GetAxis ("Mouse Y") * sensitivityVert;
+
+			Debug.Log("Mouse Y is "+ Input.GetAxis ("Mouse Y"));
+			Debug.Log("Rotate by "+ _rotationX);
+
 			_rotationX = Mathf.Clamp (_rotationX, minimumVert, maximumVert);
 
 			float rotationY = transform.localEulerAngles.y;
 
-			transform.localEulerAngles = new Vector3 (_rotationX, rotationY, 0);
+//			Debug.Log("RotationY is "+ rotationY);
+
+			transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
 		} else {
 			
 		}
