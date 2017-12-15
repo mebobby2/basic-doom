@@ -16,7 +16,6 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 57
-Local vs. global coordinate space
-
+page 61 
+Set the Axes menu of the MouseLook component to vertical rotation and 
 
