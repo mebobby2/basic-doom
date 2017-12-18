@@ -38,8 +38,8 @@ public class MouseLook : MonoBehaviour {
 			// Hence a smaller _rotationX is looking up, and a bigger one is looking down
 			_rotationX -= Input.GetAxis ("Mouse Y") * sensitivityVert;
 
-			Debug.Log("Mouse Y is "+ Input.GetAxis ("Mouse Y"));
-			Debug.Log("Rotate by "+ _rotationX);
+//			Debug.Log("Mouse Y is "+ Input.GetAxis ("Mouse Y"));
+//			Debug.Log("Rotate by "+ _rotationX);
 
 			_rotationX = Mathf.Clamp (_rotationX, minimumVert, maximumVert);
 
