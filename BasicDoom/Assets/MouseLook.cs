@@ -21,7 +21,9 @@ public class MouseLook : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		Rigidbody body = GetComponent<Rigidbody> ();
+		if (body != null)
+			body.freezeRotation = true;
 	}
 	
 	// Update is called once per frame
@@ -49,7 +51,13 @@ public class MouseLook : MonoBehaviour {
 
 			transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
 		} else {
-			
+			_rotationX -= Input.GetAxis ("Mouse Y") * sensitivityVert;
+			_rotationX = Mathf.Clamp(_rotationX, minimumVert, maximumVert);
+
+			float delta = Input.GetAxis ("Mouse X") * sensitivityHor;
+			float rotationY = transform.localEulerAngles.y + delta;
+
+			transform.localEulerAngles = new Vector3 (_rotationX, rotationY, 0);
 		}
 	}
 }
