@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 66 
-Setting a rate of movement independent of the computer’s speed
+page 68 
+This code excerpt introduces several new concepts
