@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 68 
-This code excerpt introduces several new concepts
+page 71 
+Chapter 3
