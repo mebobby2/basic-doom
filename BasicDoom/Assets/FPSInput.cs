@@ -17,7 +17,7 @@ public class FPSInput : MonoBehaviour {
 		float deltaX = Input.GetAxis ("Horizontal") * speed;
 		float deltaZ = Input.GetAxis ("Vertical") * speed;
 		Vector3 movement = new Vector3 (deltaX, 0, deltaZ);
-		movement = Vector3.ClampMagnitude (movement, speed);
+		movement = Vector3.ClampMagnitude (movement, speed); // limit diagonal movement to the same speed as movement along an axis
 
 		movement *= Time.deltaTime;
 		movement = transform.TransformDirection (movement); //transform vector from local to global coordinates
