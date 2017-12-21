@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 71 
-Chapter 3
+page 73 
+What is raycasting?
