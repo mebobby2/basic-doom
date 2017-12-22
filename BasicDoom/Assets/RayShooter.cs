@@ -32,7 +32,15 @@ public class RayShooter : MonoBehaviour {
 				// until they finish.
 				// Once a coroutine is started, it keeps running until the 
 				// function is finished; it just pauses along the way
-				StartCoroutine (SphereIndicator (hit.point));
+//				StartCoroutine (SphereIndicator (hit.point));
+
+				GameObject hitObject = hit.transform.gameObject;
+				ReactiveTarget target = hitObject.GetComponent<ReactiveTarget> ();
+				if (target != null) {
+					Debug.Log ("Target hit");
+				} else {
+					StartCoroutine (SphereIndicator (hit.point));
+				}
 			}
 		}
 	}
