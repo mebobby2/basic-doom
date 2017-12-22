@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 77 
-Listing 3.2 gave you indicators to mark where the ray hits
+page 78 
+Scripting reactive targets

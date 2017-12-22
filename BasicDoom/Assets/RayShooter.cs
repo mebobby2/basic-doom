@@ -8,6 +8,12 @@ public class RayShooter : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		_camera = GetComponent<Camera> ();
+
+		// Hide mouse cursor at center of screen
+		// Seems like when you start the game in Unity, it places the mouse cursor
+		// at the center of the screen
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
@@ -24,11 +30,18 @@ public class RayShooter : MonoBehaviour {
 				// tasks that execute incrementally over many different frames,
 				// as opposed to how most functions make the program wait 
 				// until they finish.
-				// Once a corou- tine is started, it keeps running until the 
+				// Once a coroutine is started, it keeps running until the 
 				// function is finished; it just pauses along the way
 				StartCoroutine (SphereIndicator (hit.point));
 			}
 		}
+	}
+
+	void OnGUI() {
+		int size = 12;
+		float posX = _camera.pixelWidth / 2 - size / 4;
+		float posY = _camera.pixelHeight / 2 - size / 2;
+		GUI.Label (new Rect (posX, posY, size, size), "*");
 	}
 
 	private IEnumerator SphereIndicator(Vector3 pos) {
