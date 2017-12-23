@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 79 
-Alert the target that it was hit
+page 80
+Basic wandering AI
