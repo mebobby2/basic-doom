@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 80
-Basic wandering AI
+page 82
+The listing added a couple of variables to
