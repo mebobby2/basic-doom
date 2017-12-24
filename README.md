@@ -16,5 +16,7 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 82
-The listing added a couple of variables to
+page 92
+Damaging the player
+
+Before that: start from 82 and redo everything since unity files got corrupted!
