@@ -19,4 +19,3 @@ A very very basic version of Doom built using Unity.
 page 92
 Damaging the player
 
-Before that: start from 82 and redo everything since unity files got corrupted!
