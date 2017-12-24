@@ -16,6 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 92
-Damaging the player
-
+page 94
+Chapter 4
