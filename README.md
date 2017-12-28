@@ -16,5 +16,5 @@ A very very basic version of Doom built using Unity.
 
 ## Upto
 
-page 103 
-Applying the image
+page 105
+Generating sky visuals using texture images
