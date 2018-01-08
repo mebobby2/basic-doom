@@ -357,19 +357,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Models/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Models/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/bob/Documents/Development/learn/basic-doom/BasicDoom
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 92270000
-    m_LastClickedID: 10130
-    m_ExpandedIDs: 000000001627000000ca9a3bffffff7f
+    m_SelectedIDs: 4c270000
+    m_LastClickedID: 10060
+    m_ExpandedIDs: 00000000162700002427000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -397,7 +397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016270000
+    m_ExpandedIDs: 000000001627000024270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,9 +513,9 @@ MonoBehaviour:
     height: 464
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24280000
-    m_LastClickedID: 10276
-    m_ExpandedIDs: a6fbffff00000000fc270000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,9 +599,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.040592227, y: 0.9555074, z: -0.24601717, w: 0.15763935}
   m_Size:
-    m_Target: 37.316433
+    m_Target: 43.218086
     speed: 2
-    m_Value: 37.316433
+    m_Value: 43.218086
   m_Ortho:
     m_Target: 1
     speed: 2
